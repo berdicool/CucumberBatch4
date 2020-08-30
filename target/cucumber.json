@@ -1,0 +1,224 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-14T00:32:56.071Z",
+        "before": [
+          {
+            "result": {
+              "duration": 980700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "get pet",
+        "description": "",
+        "id": "getting-and-deserializing-pet-from-petstore;get-pet;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1984100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 772030800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 6248624300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.webOrder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "contentType head is set to \"application/json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"application/json\"",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinitions.API.PetStoreSteps.contenttype_head_is_set_to(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.webOrder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 988180800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.webOrder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "user executes \"GET\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET\"",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.API.PetStoreSteps.user_executes_GET_request(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.webOrder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.webOrder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "the status code is OK",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.webOrder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999900,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.webOrder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "contentType header is \"application/json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"application/json\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinitions.API.PetStoreSteps.contenttype_header_is(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.webOrder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.webOrder.LoginPageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "users verified 10 doggie 1 size",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "StepDefinitions.com.webOrder.LoginPageSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@pet"
+          }
+        ]
+      }
+    ],
+    "name": "Getting and deserializing pet from petstore",
+    "description": "",
+    "id": "getting-and-deserializing-pet-from-petstore",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/api/GetPet.feature",
+    "tags": []
+  }
+]

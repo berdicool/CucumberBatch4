@@ -79,8 +79,10 @@ public class BreakingBad {
         ObjectMapper objectMapper=new ObjectMapper();
         List<BBCharPojo> bbCharPojo=objectMapper.readValue(response.getEntity().getContent(),
                 objectMapper.getTypeFactory().constructCollectionType(List.class, BBCharPojo.class));
-        System.out.println(String.format("%s is %s portrayed by %s, in %s",bbCharPojo.get(0).getName(),bbCharPojo.get(0).getStatus(),
-                bbCharPojo.get(0).getPortrayed(),bbCharPojo.get(0).getCategory()));
+        System.out.println(String.format("%s is %s portrayed by %s, in %s",bbCharPojo.get(0).getName(),
+                bbCharPojo.get(0).getStatus(),
+                bbCharPojo.get(0).getPortrayed(),
+                bbCharPojo.get(0).getCategory()));
 
 
     }

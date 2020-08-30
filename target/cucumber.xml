@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="1" tests="1" time="8.598">
+    <testcase classname="Getting and deserializing pet from petstore" name="get pet" time="8.098">
+        <skipped>
+            <![CDATA[Given contentType head is set to "application/json".........................passed
+When user executes "GET" request............................................passed
+Then the status code is OK..................................................undefined
+And contentType header is "application/json"................................skipped
+And users verified 10 doggie 1 size.........................................undefined
+]]>
+        </skipped>
+    </testcase>
+</testsuite>

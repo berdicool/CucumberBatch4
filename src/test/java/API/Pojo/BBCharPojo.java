@@ -12,6 +12,8 @@ public class BBCharPojo {
     private String nickname;
     private List<Integer> appearance;
     private String portrayed;
+    private String category;
+    private List<String> better_call_saul_appearance;
 
     public int getChar_id() {
         return char_id;
@@ -100,7 +102,4 @@ public class BBCharPojo {
     public void setBetter_call_saul_appearance(List<String> better_call_saul_appearance) {
         this.better_call_saul_appearance = better_call_saul_appearance;
     }
-
-    private String category;
-    private List<String> better_call_saul_appearance;
 }

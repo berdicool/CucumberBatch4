@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Runner.WebOrderRegressionRunner
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.491 s - in Runner.WebOrderRegressionRunner
